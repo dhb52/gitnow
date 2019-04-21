@@ -8,7 +8,7 @@ bind \es "echo; if state; commandline -f repaint; else ; end"
 bind \ee "echo; if stage; commandline -f repaint; else ; end"
 
 # Ctrl + E
-bind \ce "echo; if unstage; commandline -f repaint; else ; end"
+# bind \ce "echo; if unstage; commandline -f repaint; else ; end"
 
 # Alt + C
 bind \ec "echo; if commit-all; commandline -f repaint; else ; end"
